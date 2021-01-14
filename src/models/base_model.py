@@ -7,7 +7,7 @@ from torch.optim.lr_scheduler import MultiStepLR
 import yaml
 import sys
 
-from EGNN import DualGraphModule
+import DualGraphMoudle as DualGraphModule
 from src.utils.test_utils import VRDTrainTester
 from torch.nn import functional as F
 
